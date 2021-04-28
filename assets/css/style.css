@@ -77,3 +77,24 @@ footer{
     padding-bottom: 5px;
     border-bottom: 5px solid var(--text-color);
 }
+.hero{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+}
+.hero img{
+    width: 100%;
+    height: 30vh;
+    z-index: -1;
+}
+.hero h1{
+    position: absolute;
+    right: 100px;
+    bottom: 30px;
+    color: var(--dark-bgcolor);
+    background: var(--green);
+    font-size: 2rem;
+    font-weight: 1000;
+    padding: 5px 10px;
+    z-index: 1;
+}
