@@ -7,9 +7,12 @@
     --green : #92cccd;
     --text-color : #445876;
     --dark-bgcolor : #31343d;
+    --bgcolor : #ededf6;
 }
+
 body{
     font-family: 'Noto Sans JP', sans-serif;
+    background: var(--bgcolor);
 }
 header{
     width: 100%;
@@ -48,27 +51,29 @@ footer{
     height: 20vh;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    font-weight: bold;
-    padding: 10px;
+    align-items: flex-start;
+    padding: 10px 0;
+    margin-top: 50px;
 }
 .section-title{
     width: 20%;
     color: var(--text-color);
     font-size: 3rem;
     height: 100%;
+    font-weight: bold;
     text-align: right;
-    border-right: 5px solid var(--text-color);
     padding-right: 20px;
     line-height: 1.3;
 }
 .contact-details{
     width: 80%;
     height: 100%;
+    font-weight: bold;
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-left: 5px solid var(--text-color);
 }
 .contact-details a{
     font-size: 1.2rem;
@@ -97,4 +102,21 @@ footer{
     font-weight: 1000;
     padding: 5px 10px;
     z-index: 1;
+}
+
+.about-me{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.about-me .about-me-content{
+    width: 80%;
+    height: 100%;
+    color: var(--text-color);
+    padding-right: 100px;
+    padding-left: 40px;
+    border-left: 5px solid var(--text-color);
 }
