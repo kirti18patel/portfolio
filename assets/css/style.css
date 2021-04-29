@@ -46,7 +46,7 @@ header nav a{
     border-bottom: 4px solid var(--green);
 }
 
-footer{
+.contact-me{
     width: 100%;
     height: 20vh;
     display: flex;
@@ -74,6 +74,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     border-left: 5px solid var(--text-color);
+    flex-wrap: wrap;
 }
 .contact-details a{
     font-size: 1.2rem;
@@ -143,9 +144,11 @@ footer{
     padding-left: 40px;
     
 }
+
+
 .work-content .img{
     width: 48%;
-    min-height: 100%;
+    height: 200px;
     border: 5px solid var(--green);
     margin: 10px;
     position: relative;
@@ -156,11 +159,12 @@ footer{
 }
 .work-content .img1{
     width: 100%;
-}
-.work-content .img1 img{
-    width: 100%;
     height: 100%;
 }
+/* .work-content .img1 img{
+    width: 100%;
+    height: 100%;
+} */
 .work-content .project-detail{
     position: absolute;
     bottom: 20%;
@@ -168,3 +172,44 @@ footer{
     color: var(--text-color);
     padding: 10px;
 }
+
+.resume{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.resume-content{
+    width: 80%;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-left: 5px solid var(--text-color); 
+    padding-right: 100px;
+    padding-left: 40px;
+    
+}
+.resume-content p{
+    color: var(--text-color);
+}
+.resume-content a{
+    text-decoration: none;
+    color: white;
+    background: var(--text-color);
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid var(--text-color);
+}
+.resume-content a:hover{
+    color: var(--text-color);
+    background: var(--bgcolor);
+}
+.resume-content a::before{
+    content: "a";
+}
+
