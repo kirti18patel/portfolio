@@ -11,8 +11,9 @@ click the link below to check the repository : [Github Repository Link](https://
     -CSS
 
 ## Task lists
-- [x] Landing page
+- [x] Name, Photo and Links to corresponding section
 - [x] Accessible to everyone
+- [x] Live URL's of Projects
 - [x] Responsive
 
 ## Preview
