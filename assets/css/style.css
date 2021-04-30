@@ -242,7 +242,7 @@ footer p{
     text-align: right;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 640px) {
     .section-title{
         font-size: 1.3rem;
         padding-right: 10px;
@@ -274,12 +274,11 @@ footer p{
     }
     /* hero section developer's image styling */
     .hero .bg-img img{
-        width: 100%;
         height: 15vh;
         z-index: -1;
     }
     .hero .avatar-img{
-        top: 10px;
+        top: 0;
     }
     .hero .avatar-img img{
         width: 120px;
@@ -304,6 +303,37 @@ footer p{
     .about-me .about-me-content p{
         font-size: 14px;
     }
+
+    /* work section styling */
+.work{
+    margin-top: 30px;
+}
+.work-content{
+    padding-right: 10px;
+    padding-left: 10px;   
+    border-left: 4px solid var(--text-color);
+}
+.work-content .img{
+    width: 100%;
+    height: 150px;
+    border: 4px solid var(--green);
+    margin: 7px;
+}
+.work-content .img:hover{
+    transform: translateY(-5px);
+}
+.work-content .project-detail{
+    position: absolute;
+    bottom: 10%;
+    background: var(--green);
+    color: var(--text-color);
+    padding: 5px;
+}
+.work-content .project-detail h2, 
+.work-content .project-detail p{
+    font-size: 0.5rem;
+
+}
     .contact-me{
         margin-top: 20px;
         margin-bottom: 50px;
