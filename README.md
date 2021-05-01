@@ -17,9 +17,9 @@ click the link below to check the repository : [Github Repository Link](https://
 - [x] Responsive
 
 ## Preview
-![alt screenshot1](assets/screenshots/after-code-refactor1.png)
-![alt screenshot1](assets/screenshots/after-code-refactor2.png)
-![alt screenshot1](assets/screenshots/after-code-refactor3.png)
+![alt screenshot1](assets/images/screenshot1.png)
+![alt screenshot1](assets/images/screenshot2png)
+![alt screenshot1](assets/images/screenshot3.png)
 
 #### Contact - **kirti18patel@yahoo.com**
 
